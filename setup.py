@@ -31,7 +31,7 @@ setup(
     # LICENSE issue: https://github.com/josegonzalez/beaver/commit/1878b8a09b5e308d182f59def64b451f8ce4232d
     license='MIT',
     long_description=long_description(),
-    install_requires=[
+    requires=[
         'gevent',
     ],
     author='Pham Cong Dinh',
